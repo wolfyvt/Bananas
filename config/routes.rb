@@ -1,4 +1,8 @@
 Bananas::Application.routes.draw do
+  get "calculator/decoction_volume"
+
+  get "calculator/alcohol"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -9,9 +13,11 @@ Bananas::Application.routes.draw do
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)
-
+  match '/calc_alcohol' => 'calculator#alcohol'
+  
   # Sample resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
+  # resources :calculator
+
 
   # Sample resource route with options:
   #   resources :products do

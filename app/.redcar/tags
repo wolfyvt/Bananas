@@ -1,0 +1,6 @@
+1361574137
+ApplicationController	/home/adam/RailsProjects/Bananas/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	/home/adam/RailsProjects/Bananas/app/helpers/application_helper.rb	module ApplicationHelper
+CalculatorController	/home/adam/RailsProjects/Bananas/app/controllers/calculator_controller.rb	class CalculatorController 
+CalculatorHelper	/home/adam/RailsProjects/Bananas/app/helpers/calculator_helper.rb	module CalculatorHelper
+decoction_volume	/home/adam/RailsProjects/Bananas/app/controllers/calculator_controller.rb	  def decoction_volume

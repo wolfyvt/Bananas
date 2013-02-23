@@ -1,0 +1,12 @@
+<%= form_tag('/calc_alcohol') do -%>
+<div class="control-group">
+  
+  <div class="controls"><label class="control-label" for="sg"><b>Enter Gravities:</b></label>
+    <%= text_field_tag :starting_gravity, nil, placeholder: 'SG' %>
+    <%= text_field_tag :final_gravity, nil, placeholder: 'OG' %>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+    
+  </div>
+</div> 
+<% end -%>

@@ -1,0 +1,15 @@
+--- 
+cursor_positions: 
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2013-02-22 15:25:56 -05:00
+  - :path: Gemfile.lock
+    :cursor_offset: 0
+    :timestamp: 2013-02-22 15:25:56 -05:00
+  - :path: Gemfile
+    :cursor_offset: 157
+    :timestamp: 2013-02-22 15:53:42 -05:00
+  - :path: app/controllers/calculator_controller.rb
+    :cursor_offset: 84
+    :timestamp: 2013-02-22 15:25:56 -05:00
+files_to_retain: 0
